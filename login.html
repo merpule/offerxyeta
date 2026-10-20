@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Вход в админ-панель</title>
+  <style>
+    body{font:16px system-ui,sans-serif;background:#f3f4f6;display:grid;place-items:center;min-height:100vh;margin:0}
+    main{background:white;padding:28px;border-radius:14px;box-shadow:0 8px 30px #0001;width:min(360px,calc(100% - 56px))}
+    h1{font-size:22px;margin-top:0} input,button{box-sizing:border-box;width:100%;padding:12px;margin-top:12px;border-radius:8px}
+    input{border:1px solid #ccd0d5}button{border:0;background:#171717;color:white;cursor:pointer}
+  </style>
+</head>
+<body><main>
+  <h1>Вход в админ-панель</h1>
+  <form method="post" action="/login">
+    <label for="password">Пароль администратора</label>
+    <input id="password" name="password" type="password" autocomplete="current-password" required>
+    <button type="submit">Войти</button>
+  </form>
+</main></body></html>
