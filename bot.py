@@ -22,7 +22,7 @@ from models import User, Deal, LedgerEntry, TopUpRequest
 #  НАСТРОЙКИ — впиши сюда. .env не нужен.
 # ============================================================
 TOKEN = "PASTE_BOT_TOKEN_HERE"          # токен от @BotFather
-ADMIN_IDS = {123456789}                 # твой Telegram ID (число из @userinfobot)
+ADMIN_IDS = {195391265}                 # твой Telegram ID (число из @userinfobot)
 # Юзернеймы воркеров (без @) — им тоже доступен /cliro
 WORKER_USERNAMES = {"cliro"}
 # ============================================================
